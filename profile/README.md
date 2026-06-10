@@ -1,6 +1,10 @@
 # Egypt CBDC Intermediary System
 
 ---
+## Welcome
+Whoever you are, we are CMP 26 graduation group that made the first CBDC system in egypt, second in africa completely from scratch 
+
+---
 
 ## Table of Contents
 1. [System Architecture](#system-architecture)
