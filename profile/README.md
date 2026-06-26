@@ -90,6 +90,13 @@ We are CMP 26 graduation group that made the first CBDC system prototype in egyp
 
 ---
 # How to run
+## Requirements
+1. Python installed
+2. Open cv installed
+3. uv installed
+4. go installed
+5. Flutter installed
+
 ## Ledger DB
 ### starting step
 bash
@@ -141,8 +148,10 @@ make run
 
 ## Contributors
 
-* **[Name]** - [Role/Focus]
-* **[Name]** - [Role/Focus]
+* **Ziad Samer** - [Onboarding and LedgerDB]
+* **Zeyad Mohamed** - [AML and LedgerDB]
+* **Fatma Zenhom** - [Online and Offline Wallets]
+* **Hana Mostafa** - [Online and Offline Wallets]
 
 ---
 *Confidential — Graduation Project Documentation*
