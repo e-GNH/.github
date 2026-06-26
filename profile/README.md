@@ -91,7 +91,7 @@ We are CMP 26 graduation group that made the first CBDC system prototype in egyp
 ---
 # How to run
 ## Requirements
-1. Python installed
+1. Python installed 3.12.x
 2. Open cv installed
 3. uv installed
 4. go installed
