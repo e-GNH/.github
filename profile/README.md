@@ -91,7 +91,15 @@ We are CMP 26 graduation group that made the first CBDC system prototype in egyp
 ---
 # How to run
 ## Ledger DB
-
+### starting step
+bash
+```
+cd LedgerDB
+```
+bash
+```
+make run-all
+```
 ## Intermediary 
 ### starting step
 bash
