@@ -82,6 +82,18 @@ Whoever you are, we are CMP 26 graduation group that made the first CBDC system 
 ## Testing
 
 ---
+## How to run
+### Onboarding Nodes
+```bash
+make build-all BASE_DIR=<your path to Intermediary>
+make run-all BASE_DIR=<your path to Intermediary>
+```
+example: 
+```bash
+make build-all BASE_DIR=/home/zizo/Documents/GP/Intermediary
+make run-all BASE_DIR=/home/zizo/Documents/GP/Intermediary
+```
+---
 
 ## Contributors
 
