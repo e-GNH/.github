@@ -96,9 +96,10 @@ make run-all BASE_DIR=/home/zizo/Documents/GP/Intermediary
 
 ## Intermediary 
 ```
+cd Intermediary
 go mod tidy 
-
-
+```
+```
 docker run --name intermediary-redis -p 6379:6379 -d redis:7
 
 
@@ -107,11 +108,13 @@ docker run --name intermediary-postgres -e POSTGRES_USER=test -e POSTGRES_PASSWO
 
 ### Windows Users 
 ```
+cd Intermediary
 "online_wallets.sql","offline_wallets.sql","tamper.sql","pos.sql" | ForEach-Object { Get-Content ".\db\migrations\$_" | docker exec -i intermediary-postgres psql -U test -d intermediary } 
 ```
 
 ### Unix Users 
 ```
+cd Intermediary
 for f in online_wallets.sql offline_wallets.sql tamper.sql pos.sql; do docker exec -i intermediary-postgres psql -U test -d intermediary < ./db/migrations/$f done 
 
 sudo allow ufc <PORT> 
@@ -119,6 +122,7 @@ sudo allow ufc <PORT>
 
 ## to run server 
 ```
+cd Intermediary
 go run main.go 
 ```
 
@@ -127,6 +131,7 @@ go run main.go
 notes: must run on an actual android phone not an emulator 
 
 ```
+cd mobile-app
 flutter pub get 
 flutter doctor 
 flutter run
