@@ -92,10 +92,14 @@ We are CMP 26 graduation group that made the first CBDC system prototype in egyp
 ## How to run
 
 ## Intermediary 
-### run the server
+### starting step
 bash
 ```
 cd Intermediary
+```
+### run the server
+bash
+```
 make run-server
 ```
 
