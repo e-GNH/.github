@@ -96,6 +96,7 @@ We are CMP 26 graduation group that made the first CBDC system prototype in egyp
 3. uv installed
 4. go installed
 5. Flutter installed
+6. Java
 
 ## Ledger DB
 ### starting step
