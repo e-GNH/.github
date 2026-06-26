@@ -2,7 +2,7 @@
 
 ---
 ## Welcome
-Whoever you are, we are CMP 26 graduation group that made the first CBDC system in egypt, second in africa completely from scratch 
+We are CMP 26 graduation group that made the first CBDC system prototype in egypt, second in africa completely from scratch 
 
 ---
 
@@ -27,14 +27,21 @@ Whoever you are, we are CMP 26 graduation group that made the first CBDC system 
 ## Core Services & Features
 
 ### 1. Identity & Onboarding (KYC)
-### 2. Transaction Engine
-### 3. ...
+### 2. Anti Money Laundering (AML)
+### 3. Online Payments 
+### 3. Offline Payments 
+### 3. Merchant Payment Gateaway
+### 3. Point-of-Sale 
 ---
 
 ## Security & Cryptography
 
+### TLS
 ### mTLS & Secure Channel
 ### Hardware-Backed Keys
+### Rotational Keys
+### Rachet Chain-of-Trust
+### Digital Signatures
 ---
 
 ## Project Structure
@@ -55,9 +62,9 @@ Whoever you are, we are CMP 26 graduation group that made the first CBDC system 
 
 ## Prerequisites
 
-* **Languages/Compilers:** Go 1.x, Python 3.x, C++ (CMake, Make), Dart/Flutter
+* **Languages/Compilers:** Go 1.x, Python 3.x, C++ (CMake, Make), Dart/Flutter, Kotlin
 * **Tools:** `protoc` (Protocol Buffers)
-* **Databases:** PostgreSQL
+* **Databases:** PostgreSQL, Redis
 * **Environment Variables:** `.env` file requirements
 
 ---
