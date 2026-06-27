@@ -122,15 +122,9 @@ make run-server
 
 ### Onboarding Nodes
 ```bash
-make build-all BASE_DIR=<your path to Intermediary>
-make run-all BASE_DIR=<your path to Intermediary>
+make build-all BASE_DIR=.
+make run-all BASE_DIR=.
 ```
-example: 
-```bash
-make build-all BASE_DIR=/home/zizo/Documents/GP/Intermediary
-make run-all BASE_DIR=/home/zizo/Documents/GP/Intermediary
-```
-
 ### Windows Users 
 ```
 cd Intermediary
