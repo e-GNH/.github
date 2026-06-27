@@ -135,8 +135,31 @@ cd Intermediary
 
 notes: must run on an actual android phone not an emulator 
 
-```
+## First thing
+```bash
 cd mobile-app
+```
+you then need to run this
+```bash
+cat > android/local.properties << 'EOF'
+SERVER_IP=[YOUR IP CONNECTED ON THE SAME NETWORK]
+ONBOARDING_PORT=8081
+MTLS_PORT=8443
+ONBOARDING_ENDPOINT=/onboarding/create-account
+ONBOARDING_KEY_ALIAS=secure_onboarding_client_key
+TLS_KEY_ALIAS=secure_tls_client_key
+BANK_NAME=CIB
+TEE_ALIAS=TEE_KEY
+DATA_KEY=offline_blob
+DEPOSIT_COUNTER_KEY=deposit_counter
+DEPOSIT_SIGNATURE_KEY=deposit_signature
+DEPOSIT_KEY_ALIAS=deposit_key
+OFFLINE_SIG=offline_signature
+OFFLINE_ALIAS=offline_key_v0
+TEE_CERT=tee_cert_key
+EOF
+```
+```bash
 make run
 ```
 ---
